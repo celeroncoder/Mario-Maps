@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    text-align: center;
+}
+
+#map {
+    height: 60vh;
+    border: 10px groove white;
+    margin: 1rem 1rem;
+}
